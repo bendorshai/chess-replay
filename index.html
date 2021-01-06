@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <meta charset="UTF-16">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./src/structs.js"></script>
+    <script src="./src/logic.js"></script>
+    <script src="./src/view.js"></script>
+    <script src="./src/main.js"></script>
+</head>
+
+<body>
+    <div id="container" class="center">
+        <span>
+            <div id="board"></div>
+        </span>
+        <span>
+            <textarea onchange="logUpdate()" id="game-log" cols="40" rows="9"></textarea>
+        </span>
+        <span>
+            <button class="arrow font" id="left-arrow"></button>
+            <button class="arrow font" id="right-arrow"></button>
+        </span>
+    </div>
+</body>
+
+</html>
