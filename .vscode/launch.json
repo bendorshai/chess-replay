@@ -5,7 +5,7 @@
         "name": "Launch localhost",
         "type": "chrome",
         "request": "launch",
-        "url": "C:\\code\\vuejs\\myproject\\engimator\\index.html",
+        "url": "C:\\code\\engimator\\index.html",
         "webRoot": "${workspaceFolder}/wwwroot"
     },
     {
